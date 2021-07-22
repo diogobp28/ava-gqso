@@ -8,7 +8,7 @@ Este projeto está desenvolvendo o software-alvo referente a disciplina de GQSO,
 
 26/05/2021
 
-## 📄 LICENÇA 
+## 📄 LICENÇA  
 
 Licença permissiva MIT (Massachusetts Institute of Technology)
 
