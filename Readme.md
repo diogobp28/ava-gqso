@@ -1,4 +1,4 @@
-# CALCULADORA API- GQSO 
+# CALCULADORA API - GQSO 
 
 ## 📋 DESCRIÇÃO
 
