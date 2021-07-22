@@ -10,7 +10,7 @@ Este projeto está desenvolvendo o software-alvo referente a disciplina de GQSO,
 
 ## 📄 LICENÇA 
 
-Licença MIT (Massachusetts Institute of Technology)
+Licença MIT permissiva (Massachusetts Institute of Technology)
 
 ## ☑ REQUISITOS FUNCIONAIS 
 
