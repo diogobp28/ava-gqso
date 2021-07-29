@@ -6,7 +6,7 @@ Este projeto está desenvolvendo o software-alvo referente a disciplina de GQSO,
 
 ## 👨‍💻 LINGUAGEM UTILIZADA 
 
-Nessa versão da calculadora API está sendo utilizada a linguagem de programação GO. 
+Nessa versão da calculadora API, está sendo utilizada a linguagem de programação GO. 
 
 ## 🚀 INÍCIO 
 
