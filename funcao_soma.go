@@ -1,4 +1,4 @@
-package main
+package main // operação soma da calc em go
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func soma(x, y) float64 {
+func soma(x, y float64) float64 {
 	return x + y
 }
 
@@ -35,4 +35,4 @@ func somaHandler(
 	result := soma(num1, num2)
 	fmt.Fprintf(teste1, "%f", result)
 	
-}
+} 
