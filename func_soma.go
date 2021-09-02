@@ -32,5 +32,4 @@ func somaHandler(
 
 	resultado := soma(t1, t2)
 	fmt.Fprintf(w, "%f", resultado)
-	
 }
