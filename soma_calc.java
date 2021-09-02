@@ -1,7 +1,6 @@
 import java.util.*;
 
-public class soma_calc {
-    
+public class soma_calc {   
     public static void main(String args[]) {
 
         double num1, num2;
