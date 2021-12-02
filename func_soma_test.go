@@ -19,9 +19,9 @@ func TestSomaHandler(t *testing.T) {
 		"http://test/soma/1/2",
 		nil)
 
-	w := httptest.NewRecorder()
-	somaHandler(w, req)
-	resp := w.Result()
+	x := httptest.NewRecorder()
+	somaHandler(x, req)
+	resp := x.Result()
 
 	assert.Equal(t, 200, resp.StatusCode)
 
@@ -38,10 +38,10 @@ func TestSomaHandler_ErrorParam2(t *testing.T) {
 		"http://test/soma/1/OiOI",
 		nil)
 
-	w := httptest.NewRecorder()
-	somaHandler(w, req)
+	x := httptest.NewRecorder()
+	somaHandler(x, req)
 	
-	resp := w.Result()
+	resp := x.Result()
 
 	assert.Equal(t, 400, resp.StatusCode)
 
@@ -54,10 +54,10 @@ func TestSomaHandler_ErrorParam1(t *testing.T) {
 		"http://test/soma/oooi/1",
 		nil)
 
-	w := httptest.NewRecorder()
-	somaHandler(w, req)
+	x := httptest.NewRecorder()
+	somaHandler(x, req)
 
-	resp := w.Result()
+	resp := x.Result()
 
 	assert.Equal(t, 400, resp.StatusCode)
 	
